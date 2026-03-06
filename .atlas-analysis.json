@@ -1,0 +1,120 @@
+{
+  "projectType": "saas",
+  "projectName": "VoltChat",
+  "projectDescription": "Anonymous ephemeral real-time chat with zero data persistence, E2E encryption, and Supabase Realtime.",
+  "theme": "palm",
+  "primaryColor": "#33cf99",
+  "lightColor": "#1c6c5c",
+  "darkColor": "#0c0c1c",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/ephemeral-messaging",
+              "features/rooms",
+              "features/encryption",
+              "features/reactions-and-replies",
+              "features/moderation",
+              "features/themes-and-customization"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "deployment/vercel",
+              "deployment/supabase-setup",
+              "deployment/environment-variables"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "advanced/architecture",
+              "advanced/security",
+              "advanced/performance",
+              "advanced/troubleshooting"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Hooks",
+            "pages": [
+              "api/hooks/use-chat-room",
+              "api/hooks/use-lobby",
+              "api/hooks/use-bookmarks"
+            ]
+          },
+          {
+            "group": "Components",
+            "pages": [
+              "api/components/chat-interface",
+              "api/components/message-bubble",
+              "api/components/user-sidebar"
+            ]
+          },
+          {
+            "group": "Utilities",
+            "pages": [
+              "api/utils/crypto",
+              "api/utils/themes",
+              "api/utils/content-filter"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Ephemeral messaging with zero database persistence",
+    "Public and private rooms with optional E2E encryption",
+    "Real-time presence tracking and typing indicators",
+    "Message reactions, replies, and read receipts",
+    "Room moderation (kick, mute, vote kick, nuke)",
+    "AFK detection and auto-kick",
+    "Creator succession when creator leaves",
+    "Room themes, tags, capacity limits, and TTL",
+    "Content filtering and abuse reporting",
+    "PWA support with mobile-optimized UI",
+    "QR code and social sharing",
+    "Swipe-to-reply gestures on mobile"
+  ],
+  "publicApiSurface": [
+    "useChatRoom",
+    "useLobby",
+    "useBookmarks",
+    "useKeyboardShortcuts",
+    "useSwipeGesture",
+    "useResizable",
+    "ChatInterface",
+    "MessageBubble",
+    "MessageInput",
+    "UserSidebar",
+    "CreateRoomModal",
+    "JoinModal",
+    "ShareModal",
+    "ReportModal",
+    "encryptMessage",
+    "decryptMessage",
+    "generateRoomKey",
+    "importRoomKey",
+    "getTheme",
+    "applyTheme",
+    "filterContent"
+  ]
+}
